@@ -13,12 +13,54 @@ background-size:100% 50%;
 
 }
 
+.edge{
+	width:400px;
+	height:250px;
+	background-color: hsl(228, 56%, 26%);
+
+position:absolute;
+bottom:40%;
+left:21%;
+border-radius:10px;
+border-top-right-radius:110px;
+}
+.load{
+	width:700px;
+	height:180px;
+	background-color: hsl(228, 56%, 26%);
+	position:absolute;
+	bottom:40%;
+border-radius:10px;
+left: 45%;
+}
+
 @media(max-width:900px){
 	body{
+		display:flex;
+		flex-direction:column;
 		background-image: url("bg-mobile.png");
 		background-position: initial;
 		background-size:cover;
+		justify-content:center;
+		height:100vh;
+	
+	}
+	.load{
+		position: initial;
+		width:85%;
+		margin-left:auto;
+	margin-right:auto;
+		height:180px;
 		
 	}
+	.edge{
+		width:85%;
+		height:240px;
+		position:initial;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom:20px;}
+		
+		
 }
 	
