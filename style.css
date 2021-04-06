@@ -61,7 +61,7 @@ left:75.85%;
 		background-position: initial;
 		background-size:cover;
 		justify-content:center;
-		height:100vh;
+		
 	}
 
 	.load{
@@ -83,7 +83,8 @@ left:75.85%;
 	.bubble{
 		width:40%;
 		position:initial;
-		margin:auto;
+		margin-left:auto;
+		margin-right:auto;
 		margin-top:-40px;
 	}
 	.sturis{
@@ -93,10 +94,17 @@ left:75.85%;
 @media (max-width:1450px){
 	.load{
 	
-	left:48%;}
+	left:45%;}
 	.edge{
 		height:220px;
-	left:18%;}
+	left:15%;}
+	.bubble{
+		left:76%;
+	}
+	.sturis{
+	left:86.39%;}
+	body{
+	height:100vh;}
 }	
 		
 
