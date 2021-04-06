@@ -33,15 +33,35 @@ border-top-right-radius:110px;
 border-radius:10px;
 left: 45%;
 }
+.bubble{
+	width:200px;
+	height:90px;
+	
+	background-color:white;
+border-radius:10px;
+position:absolute;
+bottom:55%;
+left:68%;
+}
+.sturis{
+	background-color:white;
+	height:50px;
+	width:50px;
+	position:absolute;
+bottom:51.4%;
+left:75.85%;
+	  clip-path: polygon(101.33% 16.00%, 22.67% 17%, 106% 90%);
+}
 
 @media(max-width:900px){
 	body{
+		display:flex;
 		flex-direction:column;
 		background-image: url("bg-mobile.png");
 		background-position: initial;
 		background-size:cover;
 		justify-content:center;
-		height:auto;
+		height:100vh;
 	}
 
 	.load{
@@ -60,7 +80,24 @@ left: 45%;
 	margin-right: auto;
 	margin-bottom:20px;
 	}
-		
+	.bubble{
+		width:40%;
+		position:initial;
+		margin:auto;
+		margin-top:-40px;
+	}
+	.sturis{
+	visibility:hidden;}
+}	
+
+@media (max-width:1450px){
+	.load{
+	
+	left:48%;}
+	.edge{
+		height:220px;
+	left:18%;}
+}	
 		
 
 	
