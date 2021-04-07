@@ -147,7 +147,30 @@ left:35px;
 	top:10px;
 }
 	
-@media(max-width:1030px){
+	
+	@media (max-width:1450px){
+	.load{
+	
+	left:45%;}
+	.edge{
+		height:200px;
+	left:15%;}
+	.bubble{
+		left:68%;
+		position:absolute;
+		height:60px;
+	}
+	.sturis{
+	left:79.79%;}
+	body{
+	height:100vh;}
+	
+
+
+
+}
+	
+@media(max-width:900px){
 
 	body{
 		display:flex;
@@ -176,11 +199,12 @@ left:35px;
 	margin-bottom:20px;
 	}
 	.bubble{
-		width:45%;
+		width:46%;
 		position:initial;
 		margin-left:auto;
 		margin-right:auto;
 		margin-top:-40px;
+		text-align:center;
 	}
 	.sturis{
 	visibility:hidden;}
@@ -202,7 +226,7 @@ width:75%;
 }
 .gb{
 	
-	font-size: 48px;	 
+	font-size: 3em;	 
 		
 }
 
@@ -211,27 +235,7 @@ width:75%;
 
 	
 
-@media (max-width:1450px){
-	.load{
 	
-	left:45%;}
-	.edge{
-		height:200px;
-	left:15%;}
-	.bubble{
-		left:76%;
-		position:inherit;
-		height:60px;
-	}
-	.sturis{
-	left:79.79%;}
-	body{
-	height:100vh;}
-	
-
-
-
-}	
 		
 
 	
