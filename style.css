@@ -53,7 +53,7 @@ padding:10px;
 	height:50px;
 	width:50px;
 	position:absolute;
-bottom:49.4%;
+bottom:49.6%;
 left:71.85%;
 	  clip-path: polygon(101.33% 16.00%, 22.67% 17%, 106% 90%);
 }
@@ -111,7 +111,7 @@ left:35px;
 	top:45px;
 }
 .line{
-	width:85%;
+	width:88%;
 	height:14px;
 	border-radius:10px;
 	background-color:  hsl(229, 57%, 18%);
@@ -154,6 +154,7 @@ left:35px;
 	left:45%;}
 	.edge{
 		height:200px;
+		width:350px;
 	left:15%;}
 	.bubble{
 		left:68%;
@@ -161,6 +162,7 @@ left:35px;
 		height:60px;
 	}
 	.sturis{
+		position:relative;
 	left:79.79%;}
 	body{
 	height:100vh;}
@@ -232,7 +234,24 @@ width:75%;
 
 }	
 
+@media(max-width:340px){
+	
+.gb{
+	
+font-size: 2.5em;}
+p {
+   
+    left: 20px;
+    
+}	 
 
+.line {
+width:82%;
+    left: 20px;
+   
+}
+		
+}
 	
 
 	
