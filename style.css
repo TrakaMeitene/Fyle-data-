@@ -24,6 +24,7 @@ left:21%;
 border-radius:10px;
 border-top-right-radius:110px;
 }
+
 .load{
 	width:600px;
 	height:160px;
@@ -57,6 +58,8 @@ bottom:49.6%;
 left:71.85%;
 	  clip-path: polygon(101.33% 16.00%, 22.67% 17%, 106% 90%);
 }
+
+
 .logo{
 	position:absolute;
 top:20%;
