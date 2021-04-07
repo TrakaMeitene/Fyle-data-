@@ -3,17 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet"> 
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Fylo data storage component</title>
   </head>
   <body>
   <div class="edge">
-  <img src="logo.svg" alt="logo">
+  <img class="logo" src="logo.svg" alt="logo">
+  <span class="icons">
+  <img id="one" class="icon" src="icon-document.svg" alt="document">
+  <img id="two" class="icon" src="icon-folder.svg" alt="document">
+  <img id="three" class="icon" src="icon-upload.svg" alt="document">
+  </span>
   </div>
-  <div class="load"></div>
-  <div class="bubble"></div>
+  <div class="load">
+  <p> You've used <b>815 GB</b> of your storage</div>
+  <div class="bubble">
+<span class="gb">185</span><span id="text">GB LEFT</span>
+  </div>
   <div class="sturis"></div>
   </body>
   </html>

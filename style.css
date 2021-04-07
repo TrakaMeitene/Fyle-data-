@@ -15,7 +15,7 @@ background-size:100% 50%;
 
 .edge{
 	width:400px;
-	height:250px;
+	height:200px;
 	background-color: hsl(228, 56%, 26%);
 
 position:absolute;
@@ -26,31 +26,85 @@ border-top-right-radius:110px;
 }
 .load{
 	width:700px;
-	height:180px;
+	height:160px;
 	background-color: hsl(228, 56%, 26%);
 	position:absolute;
 	bottom:40%;
 border-radius:10px;
 left: 45%;
+
 }
 .bubble{
+	
 	width:200px;
 	height:90px;
 	
 	background-color:white;
 border-radius:10px;
 position:absolute;
-bottom:55%;
+bottom:53%;
 left:68%;
+padding-top:10px;
+
 }
 .sturis{
 	background-color:white;
 	height:50px;
 	width:50px;
 	position:absolute;
-bottom:51.4%;
+bottom:49.4%;
 left:75.85%;
 	  clip-path: polygon(101.33% 16.00%, 22.67% 17%, 106% 90%);
+}
+.logo{
+	position:absolute;
+top:20%;
+left:15%;
+width:40%;}
+
+.icons{
+	position:absolute;
+	top:50%;
+	left:15%;
+	margin-top:15px;
+}
+.icon{
+	border-radius:10px;
+margin-right:10px;
+background-color:  hsl(229, 57%, 11%);}
+
+#one{
+padding:10px 15px 10px 15px;}
+#two{
+padding:12px;}
+#three{
+padding:14px 12px 14px 12px;}
+
+
+.gb{
+	position:relative;
+	left:10px;
+	
+	font-size: 58px;
+	    font-family: 'Raleway', sans-serif;
+		font-weight:700;
+		
+}
+#text{
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	bottom:10px;
+	padding-left:20px;
+font-size:14px;
+font-weight:700;
+
+color: hsl(229, 7%, 55%);}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	color: hsl(243, 100%, 93%);
+	font-weight:400;
+font-size: 14px;
 }
 
 @media(max-width:900px){
@@ -74,14 +128,14 @@ left:75.85%;
 	}
 	.edge{
 		width:85%;
-		height:240px;
+		height:200px;
 		position:initial;
 	margin-left:auto;
 	margin-right: auto;
 	margin-bottom:20px;
 	}
 	.bubble{
-		width:40%;
+		width:45%;
 		position:initial;
 		margin-left:auto;
 		margin-right:auto;
@@ -89,14 +143,29 @@ left:75.85%;
 	}
 	.sturis{
 	visibility:hidden;}
+	
+	
+.icons{
+	position:initial;
+	display:inline-block;
+	padding-left:45px;
+}
+.logo{
+	position:initial;
+padding:45px 0px 10px 45px;
+width:40%;}
+
 }	
+
+
+	
 
 @media (max-width:1450px){
 	.load{
 	
 	left:45%;}
 	.edge{
-		height:220px;
+		height:200px;
 	left:15%;}
 	.bubble{
 		left:76%;
