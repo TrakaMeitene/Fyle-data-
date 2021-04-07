@@ -41,7 +41,7 @@ left: 45%;
 	
 	background-color:white;
 border-radius:10px;
-border-bottom-right-radius:0;
+
 position:absolute;
 bottom:53%;
 left:63%;
@@ -147,7 +147,8 @@ left:35px;
 	top:10px;
 }
 	
-@media(max-width:900px){
+@media(max-width:1030px){
+
 	body{
 		display:flex;
 		flex-direction:column;
@@ -195,6 +196,16 @@ left:35px;
 padding:45px 0px 10px 45px;
 width:40%;}
 
+.line{
+width:75%;
+	
+}
+.gb{
+	
+	font-size: 48px;	 
+		
+}
+
 }	
 
 
@@ -209,11 +220,17 @@ width:40%;}
 	left:15%;}
 	.bubble{
 		left:76%;
+		position:inherit;
+		height:60px;
 	}
 	.sturis{
-	left:86.39%;}
+	left:79.79%;}
 	body{
 	height:100vh;}
+	
+
+
+
 }	
 		
 
