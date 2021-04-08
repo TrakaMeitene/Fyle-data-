@@ -1,6 +1,5 @@
 *{
-margin:0;
-padding:0;
+box-sizing:border-box;
 }
 
 body{
@@ -10,7 +9,7 @@ body{
 background-attachment:fixed;
 background-position: center bottom;
 background-size:100% 50%;
-
+font-family: 'Raleway', sans-serif;
 }
 
 .edge{
@@ -44,9 +43,9 @@ left: 45%;
 border-radius:10px;
 
 position:absolute;
-bottom:53%;
-left:63%;
-padding:10px;
+bottom:83%;
+left:60%;
+
 
 }
 .sturis{
@@ -54,8 +53,8 @@ padding:10px;
 	height:50px;
 	width:50px;
 	position:absolute;
-bottom:49.6%;
-left:71.85%;
+bottom: 61.5%;
+left: 85%;
 	  clip-path: polygon(101.33% 16.00%, 22.67% 17%, 106% 90%);
 }
 
@@ -90,12 +89,12 @@ padding:14px 12px 14px 12px;}
 	left:10px;
 	
 	font-size: 58px;
-	    font-family: 'Raleway', sans-serif;
+	  
 		font-weight:700;
 		
 }
 #text{
-	font-family: 'Raleway', sans-serif;
+	
 	position: relative;
 	bottom:10px;
 	padding-left:20px;
@@ -106,7 +105,7 @@ color: hsl(229, 7%, 55%);}
 
 p{
 	position:relative;
-	font-family: 'Raleway', sans-serif;
+	
 	color: hsl(243, 100%, 93%);
 	font-weight:400;
 font-size: 14px;
@@ -122,12 +121,12 @@ left:35px;
 	position:relative;
 	left:35px;
 	top:50px;
-	padding:3px;
+	padding:1px;
 	
 }
 .gradient{
 	width:70%;
-	height:14px;
+	height:12px;
 
 	border-radius:10px;
 	background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
@@ -142,7 +141,7 @@ left:35px;
 	float:right;
 }
 .line span{
-	font-family: 'Raleway', sans-serif;
+	
 	font-weight:700;
 	position:relative;
 	color: hsl(243, 100%, 93%);
@@ -160,13 +159,11 @@ left:35px;
 		width:350px;
 	left:15%;}
 	.bubble{
-		left:68%;
+		
 		position:absolute;
-		height:60px;
+		height:70px;
 	}
-	.sturis{
 
-	left:79.79%;}
 	body{
 	height:100vh;}
 	
@@ -174,8 +171,67 @@ left:35px;
 
 
 }
-	
 @media(max-width:900px){
+body{
+		display:flex;
+		flex-direction:column;
+		background-image: url("bg-mobile.png");
+		background-position: initial;
+		background-size:cover;
+		justify-content:center;
+		
+	}
+
+	.load{
+		position: initial;
+		width:85%;
+		margin-left:auto;
+	margin-right:auto;
+		height:180px;
+		
+	}
+	.edge{
+		width:85%;
+		height:200px;
+		position:initial;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom:20px;
+	}
+	.bubble{
+		height:60px;
+		position:initial;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:85px;
+		text-align:center;
+	}
+	.sturis{
+	visibility:hidden;}
+	
+	
+.icons{
+	
+	display:inline-block;
+	padding-left:45px;
+	top:45%;
+}
+.logo{
+	position:relative;
+
+width:40%;}
+
+.line{
+width:75%;
+	
+}
+.gb{
+	
+	font-size: 3em;	 
+		
+}
+	}
+@media(max-width:799px){
 
 	body{
 		display:flex;
@@ -204,11 +260,134 @@ left:35px;
 	margin-bottom:20px;
 	}
 	.bubble{
-		width:46%;
+		height:60px;
 		position:initial;
 		margin-left:auto;
 		margin-right:auto;
-		margin-top:-40px;
+		margin-top:85px;
+		text-align:center;
+	}
+	.sturis{
+	visibility:hidden;}
+	
+	
+.icons{
+	
+	display:inline-block;
+	padding-left:45px;
+	top:43%;
+}
+.logo{
+	position:relative;
+
+width:40%;}
+
+.line{
+width:75%;
+	
+}
+.gb{
+	
+	font-size: 3em;	 
+		
+}
+	}
+
+	@media(max-width:700px){
+
+	body{
+		display:flex;
+		flex-direction:column;
+		background-image: url("bg-mobile.png");
+		background-position: initial;
+		background-size:cover;
+		justify-content:center;
+		
+	}
+
+	.load{
+		position: initial;
+		width:85%;
+		margin-left:auto;
+	margin-right:auto;
+		height:180px;
+		
+	}
+	.edge{
+		width:85%;
+		height:200px;
+		position:initial;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom:20px;
+	}
+	.bubble{
+		
+		position:initial;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:85px;
+		text-align:center;
+	}
+	.sturis{
+	visibility:hidden;}
+	
+	
+.icons{
+	
+	display:inline-block;
+	padding-left:45px;
+	top:42%;
+}
+.logo{
+	position:relative;
+
+width:40%;}
+
+.line{
+width:75%;
+	
+}
+.gb{
+	
+	font-size: 3em;	 
+		
+}
+	}
+@media(max-width:590px){
+
+	body{
+		display:flex;
+		flex-direction:column;
+		background-image: url("bg-mobile.png");
+		background-position: initial;
+		background-size:cover;
+		justify-content:center;
+		
+	}
+
+	.load{
+		position: initial;
+		width:85%;
+		margin-left:auto;
+	margin-right:auto;
+		height:180px;
+		
+	}
+	.edge{
+		width:85%;
+		height:200px;
+		position:initial;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom:20px;
+	}
+	.bubble{
+		
+		position:initial;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:85px;
 		text-align:center;
 	}
 	.sturis{
@@ -219,10 +398,11 @@ left:35px;
 	position:initial;
 	display:inline-block;
 	padding-left:45px;
+	padding-top:40px;
 }
 .logo{
-	position:initial;
-padding:45px 0px 10px 45px;
+	position:relative;
+
 width:40%;}
 
 .line{
@@ -255,9 +435,3 @@ width:82%;
 }
 		
 }
-	
-
-	
-		
-
-	
